@@ -1,0 +1,36 @@
+{
+    "seed": 42,
+    "lr": 2e-5,
+    "warmup": 0.1,
+    "do_lower_case": true,
+    "mode": "eval",
+    "uda_mode": false,
+
+    "total_steps": 100,
+    "max_seq_length": 256,
+    "train_batch_size": 8,
+    "eval_batch_size": 16,
+
+    "unsup_ratio": 3,
+    "uda_coeff": 1,
+    "tsa": "linear_schedule",
+    "uda_softmax_temp": -1,
+    "uda_confidence_thresh": -1,
+
+    "data_parallel": true,
+    "need_prepro": false,
+    "sup_data_dir": "/home/pengyifei/Downloads/FLiText-main/data/data/imdb/sup_2500",
+    "unsup_data_dir": "/home/pengyifei/Downloads/FLiText-main/data/data/imdb/unsup_str",
+    "eval_data_dir": "/home/pengyifei/Downloads/FLiText-main/data/data/imdb/test_str",
+
+    "model_file":"/home/liuchen/AUTOUDA/UDA_pytorch_github/results/save/bert_500_base.pt",
+    "pretrain_file": null,
+    "vocab":"uncased_L-12_H-768_A-12/vocab.txt",
+    "task": "imdb",
+
+    "save_steps": 100,
+    "check_steps": 250,
+    "results_dir": "Inspirer/results/yahoo",
+
+    "is_position": false
+}
