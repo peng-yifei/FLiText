@@ -13,18 +13,18 @@
 
     "data_parallel": true,
     "need_prepro": false,
-    "sup_data_dir": "/home/pengyifei/Downloads/FLiText-main/data/data/imdb/sup_20",
-    "unsup_data_dir": "/home/pengyifei/Downloads/FLiText-main/data/data/imdb/unsup_str",
-    "eval_data_dir": "/home/pengyifei/Downloads/FLiText-main/data/data/imdb/test_str",
+    "sup_data_dir": "./FLiText-main/data/data/imdb/sup_20",
+    "unsup_data_dir": "./FLiText-main/data/data/imdb/unsup_str",
+    "eval_data_dir": "./FLiText-main/data/data/imdb/test_str",
 
     "student_model_file": null,
-    "model_file":"/home/liuchen/AUTOUDA/UDA_pytorch_github/results/save/bert_500_base.pt",
+    "model_file":"./UDA_pytorch_github/results/save/bert_500_base.pt",
     "pretrain_file": null,
     "vocab":"uncased_L-12_H-768_A-12/vocab.txt",
 
     "save_steps": 100,
     "check_steps": 250,
-    "results_dir": "/home/pengyifei/Downloads/FLiText-main/Target/results/imdb/",
+    "results_dir": "./FLiText-main/Target/results/imdb/",
 
     "is_position": false,
 
